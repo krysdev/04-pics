@@ -1,12 +1,9 @@
 // import { useState } from 'react';
 
 function SearchBar({ whenPressEnter }) {
-
-  // const handleClick = () => whenPressEnter('cars'); // for testing child->parent communication
-
   const handleSubmitForm = (e) => {
     e.preventDefault();
-    whenPressEnter('cars')
+    whenPressEnter('cars');
 
     // console.log('ENTER pressed')
   };
@@ -17,8 +14,7 @@ function SearchBar({ whenPressEnter }) {
         <input type="text" />
       </form>
 
-      {/* for testing */}
-      {/* <button onClick={handleClick}>Search</button> */}
+      {/* <button onClick={ () => whenPressEnter ('cars') }> Search </button> */}
     </div>
   );
 }
