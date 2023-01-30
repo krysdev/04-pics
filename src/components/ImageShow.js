@@ -1,7 +1,9 @@
 function ImageShow() {
+  
+  
   return (
     <div>
-      IMAGE
+      ||| ImageShow comp |||
     </div>
   );
 }

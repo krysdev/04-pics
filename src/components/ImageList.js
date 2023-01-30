@@ -1,10 +1,11 @@
-import ImageShow from "./ImageShow";
+import ImageShow from './ImageShow';
 
-function ImageList() {
+function ImageList({ images }) {
+  
   return (
     <div>
-      LIST
-      <ImageShow/>
+      LIST: {images.length}
+      <ImageShow />
     </div>
   );
 }
